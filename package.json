@@ -1,6 +1,6 @@
 {
   "name": "@dlytle/remix-generators",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A set of generators for use in Remix projects",
   "keywords": [
     "node",
