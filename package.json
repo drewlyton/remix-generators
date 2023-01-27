@@ -24,7 +24,7 @@
     "dev": "nodemon -w *.ts -e ts -x ts-node --files -H -T ./src/index.ts",
     "lint": "eslint --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "test": "vitest",
+    "test": "vitest --passWithNoTests",
     "plop": "plop"
   },
   "dependencies": {
