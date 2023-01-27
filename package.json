@@ -1,6 +1,6 @@
 {
   "name": "@dlytle/remix-generators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of generators for use in Remix projects",
   "keywords": [
     "node",
@@ -40,7 +40,6 @@
     "@typescript-eslint/parser": "^5.42.1",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
-    "node-plop": "^0.31.0",
     "nodemon": "^2.0.20",
     "plop": "^3.1.1",
     "prettier": "^2.7.1",

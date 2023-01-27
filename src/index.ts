@@ -1,8 +1,11 @@
 import { NodePlopAPI } from 'plop'
 
-import route from './route'
+import route, { GeneratorParams } from './route'
 
-const generator = async (plop: NodePlopAPI): Promise<void> => {
+const generator = async (
+  plop: NodePlopAPI,
+  params: GeneratorParams
+): Promise<void> => {
   plop.setHelper('includes', (array, string, options) => {
     if (array.includes(string)) {
       return options.fn(this)
@@ -12,7 +15,7 @@ const generator = async (plop: NodePlopAPI): Promise<void> => {
   })
 
   plop.setDefaultInclude({ generators: true })
-  plop.setGenerator('route', route)
+  plop.setGenerator('route', route(params))
 }
 
 export = generator
