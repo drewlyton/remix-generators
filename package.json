@@ -1,12 +1,17 @@
 {
+  "name": "@dlytle/remix-generators",
   "version": "0.0.1",
-  "description": "A new NPM package",
+  "description": "A set of generators for use in Remix projects",
   "keywords": [
     "node",
     "typescript",
     "eslint",
     "prettier",
-    "vitest"
+    "vitest",
+    "remix",
+    "react",
+    "plop",
+    "plopjs"
   ],
   "license": "MIT",
   "author": {
@@ -46,5 +51,8 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "publishConfig": {
+    "cache": ".npm"
   }
 }
